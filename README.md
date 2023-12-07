@@ -2,14 +2,6 @@
 
 A lightweight Node.js package that converts numbers to their word representation. This package was developed using Test Driven Development (TDD) practices and can be useful for developers seeking to practice TDD or needing a simple number-to-words conversion functionality.
 
-## Installation
-
-Clone the repository from GitHub:
-
-```shell
-git clone https://github.com/your-username/number-to-words.git
-```
-
 ## Usage
 
 ```javascript
@@ -70,6 +62,3 @@ The NumToWordConverter class provides a convert() method that takes a number as 
 ## License
 
 This package is released under the [MIT License](LICENSE). For more information, please see the [license file](LICENSE).
-
-
-
