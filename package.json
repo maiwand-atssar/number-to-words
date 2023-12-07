@@ -1,0 +1,20 @@
+{
+  "name": "number-to-words",
+  "version": "1.0.0",
+  "description": "Convert numbers to English words",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "convert",
+    "numbers",
+    "words"
+  ],
+  "author": "Maiwand Atssar",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
