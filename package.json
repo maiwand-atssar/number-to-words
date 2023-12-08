@@ -1,5 +1,5 @@
 {
-  "name": "number-to-words",
+  "name": "num-to-words-en",
   "version": "1.0.0",
   "description": "Convert numbers to English words",
   "main": "index.js",
