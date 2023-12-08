@@ -1,4 +1,4 @@
-# number-to-words
+# num-to-words-en
 
 A lightweight Node.js package that converts numbers to their word representation. This package was developed using Test Driven Development (TDD) practices and can be useful for developers seeking to practice TDD or needing a simple number-to-words conversion functionality.
 
@@ -13,7 +13,7 @@ npm i num-to-words-en
 ## Usage
 
 ```javascript
-const { NumToWordConverter } = require('./number-to-words');
+const { NumToWordConverter } = require('num-to-words-en');
 
 const converter = new NumToWordConverter();
 
