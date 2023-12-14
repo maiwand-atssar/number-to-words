@@ -46,11 +46,11 @@ const preprocessor = (number) => {
   return number;
 };
 
-const convertorWithPreprocessor = new NumToWordConverter(preprocessor);
-const words5 = convertorWithPreprocessor.convert('1001');
+const converter = new NumToWordConverter(preprocessor);
+const words5 = converter.convert('1001');
 console.log(words5);
 // Output: "one thousand"
-const words6 = convertorWithPreprocessor.convert('100');
+const words6 = converter.convert('100');
 console.log(words6);
 // Output: "one hundred"
 
@@ -60,8 +60,8 @@ const postprocessor = (words, number) => {
   return words.toUpperCase();
 };
 
-const convertorWithPostprocessor = new NumToWordConverter(preprocessor, postprocessor);
-const words7 = convertorWithPostprocessor.convert('100');
+const converter = new NumToWordConverter(preprocessor, postprocessor);
+const words7 = converter.convert('100');
 console.log(words7);
 // Output: "ONE HUNDRED"
 ```

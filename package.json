@@ -1,6 +1,6 @@
 {
   "name": "num-to-words-en",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert numbers to English words",
   "main": "index.js",
   "scripts": {
