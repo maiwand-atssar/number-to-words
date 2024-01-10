@@ -114,7 +114,8 @@ const converter = new NumToWordConverter(preprocessor);
 // Convert a number string with commas to words
 const words = converter.convert('1,234,567');
 console.log(words);
-// Output: "one million, two hundred thirty-four thousand, five hundred and sixty-seven"
+// Output: "one million, two hundred and thirty-four thousand, 
+//          five hundred and sixty-seven"
 ```
 
 ## License
